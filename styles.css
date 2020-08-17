@@ -1,0 +1,142 @@
+div.blk-bold {
+    color: white;
+    background-color: black;
+    font-family: 'Cambria';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div.blk-norm {
+    color: white;
+    background-color: black;
+    font-family: 'Cambria';
+    font-size: 30px;
+    font-style: normal;
+}
+
+div.gray {
+    color: white;
+    background-color: gray;
+}
+
+div.blue {
+    color: white;
+    background-color: blue;
+}
+
+div.brown {
+    color: white;
+    background-color: brown;
+}
+
+div.orange {
+    color: white;
+    background-color: orange;
+}
+
+div.text-blk-yellowbg {
+    color: black;
+    background-color: yellow;
+}
+
+div.blktext-bluebg {
+    color: black;
+    background-color: blue;
+}
+
+div.textwhite-bgred {
+    color: white;
+    background-color: red;
+}
+
+.container {
+    display: flex; /* if you want to create your own responsive margins.. bootstrap already has it made though..*/
+  
+}
+  
+
+.button1 {
+    font-family:"Cambria";
+    font-weight:"Bold";
+    font-size:40px;
+  }
+
+  .button2 {
+    font-family:"Cambria";
+    font-weight:"bold";
+    font-style: oblique;
+    font-size:40px;
+  }
+
+  .button3 {
+    font-family:"Cambria";
+    font-weight:"Bold";
+    font-style: italic;
+    font-size:40px;
+  }
+
+  .button4 {
+    font-family:"Cambria";
+    font-weight:"Bold";
+    font-style: inherit;
+    font-size:40px;
+  }
+
+  img.one {
+      max-width:85%;
+      height:auto;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+  }
+
+  img.two {
+    max-width:20%;
+    height:auto;
+}
+
+img.three{
+    max-width:80%;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#home, #about-me, #projects, #contact-me { /* jump to certain pages/anchors on pages */
+    display:none;
+}
+#home:target{
+    display:block;
+}
+#about-me:target{
+    display:block;
+}
+#projects:target{
+    display:block;
+}
+#contact-me:target{
+    display:block;
+}
+
+div.paragraphleft{
+    text-align: left;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: x-large;
+}
+
+div.paragraphright{
+    text-align: right;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: x-large;
+}
+
+div.paragraphcenter{
+    text-align: center;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: x-large;
+}

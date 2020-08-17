@@ -1,0 +1,41 @@
+div.blk-bold {
+    color: white;
+    background-color: black;
+    font-family: 'Cambria';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div.blk-norm {
+    color: white;
+    background-color: black;
+    font-family: 'Cambria';
+    font-size: 30px;
+    font-style: normal;
+}
+
+div.blue {
+    color: white;
+    background-color: blue;
+}
+
+textwhite-bgred.red {
+    color: white;
+    background-color: red;
+}
+
+.boxmodel {
+    padding:50px;
+    margin: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.button1 {
+    font-family:"Cambria";
+    font-weight:"Bold";
+    font-size:40px;
+  }
+
